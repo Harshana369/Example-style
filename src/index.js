@@ -1,13 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Counter from "./components/ComingFromCSS";
+import ExtendingStyles from "./components/ExtendingStyles";
+import PassedProps from "./components/PassedProps";
+import StylingAnyComponent from "./components/StylingAnyComponent";
+import "./index.css";
+// import GetingStart from "./components/GetingStart";
+import reportWebVitals from "./reportWebVitals";
+// import AdaptingBasedOnProps from "./components/AdaptingBasedOnProps";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <GetingStart /> */}
+    {/* <AdaptingBasedOnProps /> */}
+    {/* <ExtendingStyles /> */}
+    {/* <StylingAnyComponent /> */}
+    {/* <PassedProps /> */}
+    <Counter />
   </React.StrictMode>
 );
 
